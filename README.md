@@ -7,9 +7,9 @@
 ---
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Format-ISO%20A4%20(5%20Pages)-1E293B?style=for-the-badge" alt="Format"/>
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-059669?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/License-MIT-gray?style=for-the-badge" alt="License"/>
+  <img src="https://img.shields.io/badge/SPEC-ISO%20A4%20(5%20PAGES)-0A0A0C?style=for-the-badge&logoColor=white" alt="Format"/>
+  <img src="https://img.shields.io/badge/STYLE-NOTHING%20OS-D71921?style=for-the-badge" alt="Design"/>
+  <img src="https://img.shields.io/badge/STATUS-VERIFIED-0A0A0C?style=for-the-badge" alt="Status"/>
 </p>
 
 ## 📌 Executive Overview
@@ -31,10 +31,13 @@ This repository hosts the practical research deliverable analyzing the software 
 
 ## 📥 Deliverable (Direct PDF Access)
 
-The compiled research report is formatted to rigorous academic and technical standards:
+<p align="left">
+  <a href="./Nourhan_Mohamed_2501165_Report.pdf">
+    <img src="https://img.shields.io/badge/📄%20DOWNLOAD%20OFFICIAL%20REPORT-PDF%20(5%20PAGES)-D71921?style=for-the-badge&logoColor=white" alt="Download PDF"/>
+  </a>
+</p>
 
-* 📄 **[Nourhan_Mohamed_2501165_Report.pdf](./Nourhan_Mohamed_2501165_Report.pdf)**  
-  *Official Academic Edition (5 Pages ISO A4) — Complete with architectural SVG diagrams, pricing engines, and verified scholarly references.*
+> 💡 *Click the badge above or access the file directly from the repository list to review the full document.*
 
 ---
 
