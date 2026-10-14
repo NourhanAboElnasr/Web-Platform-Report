@@ -15,35 +15,6 @@
 ## 📌 Executive Overview
 This repository hosts the practical research deliverable analyzing the software architecture and subsystem integration of modern **E-Commerce Web Platforms**. The study investigates how client-side user interfaces, server-side transactional engines, and third-party payment gateways interoperate under high concurrency and strict security mandates.
 
-```mermaid
-graph LR
-    subgraph Client_Tier [1. Client Presentation Tier]
-        UI[Storefront UI & Faceted Catalog]
-        DOM[Client DOM & LocalStorage]
-    end
-
-    subgraph Server_Tier [2. Business Logic Tier]
-        API[RESTful / GraphQL Gateway]
-        CartEngine[Cart State & Pricing Engine]
-        Inventory[Inventory Concurrency Control]
-    end
-
-    subgraph Security_Tier [3. Financial Settlement Tier]
-        Token[TLS 1.3 / Tokenization Engine]
-        Gateway[Payment Gateway / PCI-DSS]
-        Bank[Issuing Bank & 3D Secure 2.0]
-    end
-
-    UI --> DOM
-    DOM -- HTTPS / JSON --> API
-    API --> CartEngine
-    CartEngine --> Inventory
-    CartEngine -- Encrypted Intent --> Token
-    Token --> Gateway
-    Gateway --> Bank
-    Bank -- Webhook Callback --> API
-```
-
 ---
 
 ## 📑 Report Structure & Modules (5 A4 Pages)
